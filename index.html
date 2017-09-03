@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UI components sprint</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="container">
+
+      <h1 class="text-center">UI Components Sprint</h1>
+
+    <h2>Avatar Design</h2>
+    <img src="http://placehold.it/50x50" class="avatar">
+    <img src="http://placehold.it/50x50" class="avatar-small">
+
+    <h2>Button design</h2>
+    <a href="#" class="btn-medium">Write stories</a>
+    <a href="#" class="btn-twitter">Start now</a>
+
+    <h2>Dropdown design</h2>
+     <div class="dropdown">
+      <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="profile-dropdown" data-toggle="dropdown">
+      <ul class="dropdown-menu" aria-labelledby="profile-dropdown">
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li><a class="dropdown-item" href="#">Dashboard</a></li>
+        <li><a class="dropdown-item" href="#">Sign Out</a></li>
+      </ul>
+     </div>
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        Dropdown
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+
+    <h2>CSS Postioning</h2>
+    <h4>Relative Position</h4>
+    <ul>
+      <li><p>Relative to <b>initial</b> position, not parent element.</p></li>
+      <li><p>A way to <b>pin an element</b></p></li>
+    </ul>
+    
+    <h4>Absolute Postion</h4>
+    <ul>
+      <li><p>Offset from <b>1st positioned parent</b></p></li>
+      <li><p>If no pinned parent exists, => <b>body</b></p></li>
+    </ul>
+
+    <h2>Card Design</h2>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">      <span class="card-category">POPULAR</span>
+      <div class="card-description">
+        <h3>Stripe</h3>
+        <p>A cool payement API</p>
+      </div>
+      <img src="http://placehold.it/50x50" class="avatar-small card-image">
+    </div>
+      </div>  
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+      <span class="card-category">POPULAR</span>
+      <div class="card-description">
+        <h3>Stripe</h3>
+        <p>A cool payement API</p>
+      </div>
+      <img src="http://placehold.it/50x50" class="avatar-small card-image">
+    </div>
+      </div>  
+      <div class="col-xs-12 col-sm-4">
+        <div class="card">
+      <span class="card-category">POPULAR</span>
+      <div class="card-description">
+        <h3>Stripe</h3>
+        <p>A cool payement API</p>
+      </div>
+      <img src="http://placehold.it/50x50" class="avatar-small card-image">
+    </div>
+      </div>  
+    </div>
+
+    <h2>Badge Design</h2>
+    <img src="http://placehold.it/50x50" class="avatar">
+    <span class="badge">4</span>
+
+    <h2>Banner Design</h2>
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Stripe</h1>
+        <p>Cool Payment API</p>
+        <a href="#" class="btn-twitter">Start now</a>
+      </div>
+    </div>
+
+    <h2>Tabs Design</h2>
+
+    <div class="tabs">
+      <div class="tabs-item active">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+      <div class="tabs-item">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+      <div class="tabs-item">
+        <h2><b>LOGO</b></h2>
+      </div>
+      <div class="tabs-item">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+      <div class="tabs-item">
+        <h3>75</h3>
+        <p>Upvoted!!</p>
+      </div>
+    </div>
+
+    <h2>List / Product Design</h2>
+
+    <div class="product">
+      <div class="product-upvotes">
+        <i class="fa fa-caret-up"></i>
+        <p>34</p>
+      </div>
+      <img src="https://unsplash.it/150" class="product-image">
+      <div class="product-description">
+        <h3>Stripe</h3>
+        <p>An awesome payment API</p>
+      </div>
+      <ul class="list-inline product-control">
+        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+        <li><a href="#"><i class="fa fa-star"></i></a></li>
+        <li><a href="#"><i class="fa fa-share"></i></a></li>
+      </ul>
+    </div>
+
+
+
+  </div>
+
+    <!-- TODO -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>  

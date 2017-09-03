@@ -1,0 +1,9 @@
+/*background: linear-gradient(angle, start_color start_point, end_color end_point),
+			url("background.jpg");*/
+
+.grad-filter {
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%);
+
+
+
+}

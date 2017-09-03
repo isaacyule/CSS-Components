@@ -1,0 +1,25 @@
+.product {
+	display: flex;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px 0px;
+}
+
+.product-description {
+	flex: 1 0 auto;
+	padding-left: 10px;
+}
+
+.product-description h3 {
+	margin: auto;
+}
+
+.product-upvotes {
+	text-align: center;
+    padding: 10px;
+}
+
+.product-control a {
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
